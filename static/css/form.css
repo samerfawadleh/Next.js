@@ -1,0 +1,20 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input.error {
+    border: 1px solid salmon;
+}
+
+a {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+button {
+    min-width: 100px;
+}
